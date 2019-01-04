@@ -1,0 +1,18 @@
+Hamburger= "En lækker hamburger med sennep, ketchup, løg og flammegrillet bøf"
+Hamburger_pris=10.00
+Cheeseburger="En lækker cheeseburger med sennep,ketchup,løg, flammegrillet bøf og en skive cheddar ost"
+Cheeseburger_pris=15.00
+Bacon_cheeseburger="Vores lækre cheeseburger med sprødt bacon"
+Bacon_cheeseburger_pris=20.00
+Menu="En menu med sprøde friturestegte pomfritter og en kold coca cola og en valgfri burger"
+Menu_pris=40.00
+Moms=0.25
+
+Pris_beregning_total=Bacon_cheeseburger_pris+Cheeseburger_pris
+ting_købt_total=Bacon_cheeseburger,Cheeseburger
+moms_beregning=Pris_beregning_total*Moms
+Total=moms_beregning+Pris_beregning_total
+print("købt:")
+print(ting_købt_total)
+print("Pris i dkk:")
+print(Total)
