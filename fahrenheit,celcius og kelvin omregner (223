@@ -1,15 +1,23 @@
+#fahrenheit til celcius
 def f_to_c(f_temp):
   c_temp=(f_temp-32)*5/9
   return c_temp
-print(f_to_c(100))
+print(f_to_c(0))
 
+#celcius til fahrenheit
 def c_to_f(c_temp):
   f_temp=(c_temp*9/5)+32
   return f_temp
 print(c_to_f(0))
 
+#celcius til kelvin 
 def c_to_k(c_temp):
   k_temp=c_temp+273.15
   return k_temp
-print(c_to_f(0))
-#printer 273.15
+print(c_to_k(0))
+
+#kelvin til celcius
+def k_to_c(k_temp):
+  c_temp=k_temp-273.15
+  return c_temp
+print(k_to_c(0))
