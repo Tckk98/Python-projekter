@@ -1,0 +1,7 @@
+fag=["digitale energisamfund","programmering","matematik","fysik"]
+karaktere=[10,12,7,7]
+fag.append("anvendt termodynamik")
+karaktere.append(10)
+karakterbog= list(zip(fag,karaktere))
+karakterbog.append(("okologi",10))
+print(karakterbog)
