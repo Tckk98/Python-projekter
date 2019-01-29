@@ -1,0 +1,16 @@
+toppings=["pepperoni","ananas","margherita","cocktailpølser","oliven","bacon","svampe"]
+priser=[12,16,11,13,12,17,12]
+
+num_pizzaer=len(toppings)
+print("Vi saelger "+str(num_pizzaer)+" antal forskaellige slags pizza!")
+
+pizzaer=list(zip(priser,toppings))
+print(pizzaer)
+pizzaer.sort()
+billigste_pizza=pizzaer[0]
+dyreste_pizza=pizzaer[-1]
+tre_billigste=pizzaer[:3]
+print(tre_billigste)
+
+antal_tolv_kroners_slices=priser.count(12)
+print(antal_tolv_kroners_slices)
