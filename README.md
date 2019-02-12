@@ -4,12 +4,21 @@ Jeg har nummereret mine projekter efter hvornår jeg har lavet dem så nummer "1
 Jeg har ved hjælp af et online kursus på Codeacademy.com lært følgende om python 3
 
 -Functions
+
 -Control Flow
+
 -Lists
+
 -Loops
+
 -Strings
+
 -Modules
+
 -Dictionaries
+
 -Files
+
 -Classes
+
 -Function Arguments
